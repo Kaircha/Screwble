@@ -3,20 +3,11 @@ using Microsoft.Data.Sqlite;
 using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
-var allowOrigins = "_allowOrigins";
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddCors(options => {
-  options.AddPolicy(name: allowOrigins,
-  policy => {
-    policy.AllowAnyHeader()
-          .AllowAnyMethod()
-          .AllowAnyOrigin();
-  });
-});
 
 var app = builder.Build();
 
@@ -64,7 +55,6 @@ app.MapPost("/", ([FromBody] DatabaseEntry entry) => {
   return Results.Ok();
 });
 
-app.UseCors(allowOrigins);
 app.Run();
 
 public record DatabaseEntry (

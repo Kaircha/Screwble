@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qfMI6WX/3KG4yFixk68fIckmQ2ttMLvxJkjImUNO6CS1XBYRPiIb0zCuitrikdkMzjnpU65VaP4TczqaSuv/3A==",
+  "dgSpecHash": "OjQNhjT0TqulRd3fCIF5SHaNJrInayMVd/WGjS7+AmkGVREXTojjKl2+LXYORvmA+R8H5aI3OeaL1ixFwV7Lug==",
   "success": true,
-  "projectFilePath": "E:\\WebDev\\Projects\\Mini 135\\Screwble API\\Screwble API\\Screwble API.csproj",
+  "projectFilePath": "E:\\Projects\\Screwble\\Screwble API\\Screwble API\\Screwble API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.data.sqlite\\7.0.8\\microsoft.data.sqlite.7.0.8.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.8\\microsoft.data.sqlite.core.7.0.8.nupkg.sha512",

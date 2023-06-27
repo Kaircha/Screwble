@@ -552,11 +552,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WebDev\\Projects\\Mini 135\\Screwble API\\Screwble API\\Screwble API.csproj",
+      "projectUniqueName": "E:\\Projects\\Screwble\\Screwble API\\Screwble API\\Screwble API.csproj",
       "projectName": "Screwble API",
-      "projectPath": "E:\\WebDev\\Projects\\Mini 135\\Screwble API\\Screwble API\\Screwble API.csproj",
+      "projectPath": "E:\\Projects\\Screwble\\Screwble API\\Screwble API\\Screwble API.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\WebDev\\Projects\\Mini 135\\Screwble API\\Screwble API\\obj\\",
+      "outputPath": "E:\\Projects\\Screwble\\Screwble API\\Screwble API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
